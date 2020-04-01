@@ -1,0 +1,41 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ font-family: 'Bitter', serif;
+}
+body {
+  background-color: #000000;
+  background-image: linear-gradient(rgb(51, 50, 50), rgb(12, 12, 12), rgb(37, 16, 16));
+ }
+#game, #gameOver, #finish {
+ display: none;
+}
+#inputWord{
+ font-size: 20px;
+ height: 2em;
+ color: #000;
+}
+#buttonDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.startBtn{
+ display:block;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  font-size: 60px;
+  color: #050505;
+  text-transform: uppercase;
+  background-image:url("cat.gif");
+  background-color: rgba(133, 29, 29, 0);
+}
+.startBtn:hover {
+ border: 10px solid #36bd2a;
+ background-color:#050505;
+ color: #000000;
+ 
+}
